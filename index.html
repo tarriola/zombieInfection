@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Bomberman</title>
+		<link rel="stylesheet" type="text/css" href="./css/page.css">
+		<style>
+			.button {
+			    background-color: #555555; /* Green */
+			    border: none;
+			    color: white;
+			    padding: 15px 60px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			    margin: 10px 7px;
+			    cursor: pointer;
+			}
+
+			.button2 {background-color: #008CBA;} /* Blue */
+			.button3 {background-color: #f44336;} /* Red */
+			.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+			.button5 {background-color: #555555;} /* Black */
+		</style>
+	</head>
+	<body>
+    <div id="middle">
+      <canvas id="gameWorld" tabindex="1" width="850" height="850"
+              style="border: 1px solid brown; background: black">
+      </canvas>
+		</div>
+		<!-- <div id="header">
+		</div> -->
+
+		<div id="left_side">
+			<ul>
+			     <button class = "button button3" id="save-button" onclick="saveGame()">Save</button>
+           <button class = "button button2" id="load-button" onclick="loadGame()">Load</button>
+			</ul>
+		</div>
+
+    <script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./levels.js"></script>
+    <script type="text/javascript" src="./background.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+
+
+	</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zombie infection</title>
+    <link rel="stylesheet" type="text/css" href="./css/page.css">
+    <script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./levels.js"></script>
+    <script type="text/javascript" src="./background.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <canvas id="gameWorld" tabindex="1" width="850" height="850" style="border: 1px solid brown; background: lightskyblue"></canvas>
+    <div>
+        <button id="save-button" onclick="saveGame()">Save</button>
+        <button id="load-button" onclick="loadGame()">Load</button>
+    </div>
+</body>
+</html> -->
