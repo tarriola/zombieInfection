@@ -584,7 +584,7 @@ AM.downloadAll(function () {
 function reload(gameEngine) {
 
     gameEngine.addBackgroundEntity(new Background(gameEngine));
-    var i = 15;
+    var i = 20;
 
   var array = [];
 

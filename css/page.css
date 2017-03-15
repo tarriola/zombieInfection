@@ -4,7 +4,8 @@ body
 	min-width: 1366px;
 	margin: 0;
 	padding: 0;
-	background: url("newer_background1.png");
+	/*background: url("newer_background1.png");*/
+	background: black;
 	background-size: cover;
 }
 
@@ -15,7 +16,7 @@ body
 	left: 50%;
 	margin-left: -620px;
 	width: 250px;
-	background-color: #555555;
+	background-color: black;
 	border: 3px solid black;
 	margin-top: 50px;
 }
